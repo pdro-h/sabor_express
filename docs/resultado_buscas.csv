@@ -1,0 +1,4 @@
+algoritmo,rota,custo_km
+A*,"[0, 2, 3]",6.0
+BFS,"[0, 3]",7.0
+DFS,"[0, 3]",7.0
