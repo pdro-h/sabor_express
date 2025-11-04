@@ -14,7 +14,7 @@ from algorithms.dfs import dfs
 def build_test_data():
     data = [
         {"id": 0, "name": "Depot",     "x": 0.0, "y": 0.0},
-        {"id": 1, "name": "Cliente A", "x": 2.0, "y": 1.0},
+        {"id": 1, "name": "Cliente A", "x": 3.0, "y": 1.0},
         {"id": 2, "name": "Cliente B", "x": 4.0, "y": 2.0},
         {"id": 3, "name": "Cliente C", "x": 6.0, "y": 2.0},
         {"id": 4, "name": "Cliente D", "x": 2.5, "y": -1.0},
