@@ -129,13 +129,13 @@ def main():
     comparacao.to_csv("docs/resultado_buscas.csv", index=False)
     print("Salvo em docs/resultado_buscas.csv")
 
-    # 7) Gera IMAGENS das rotas
+    # 7) Gera imagens das rotas
     plot_path(locations_df, a_path,  "Rota A*",  "docs/path_astar.png")
     plot_path(locations_df, bfs_path, "Rota BFS", "docs/path_bfs.png")
     plot_path(locations_df, dfs_path, "Rota DFS", "docs/path_dfs.png")
     print("Imagens de rotas salvas em docs/path_astar.png, docs/path_bfs.png, docs/path_dfs.png")
 
-    # 8) Gera IMAGEM do comparativo de custos
+    # 8) Gera imagem do comparativo de custos
     plot_costs_bar(["A*", "BFS", "DFS"], [a_cost, bfs_cost, dfs_cost], "docs/buscas_comparacao.png")
     print("Imagem de custos salva em docs/buscas_comparacao.png")
 
